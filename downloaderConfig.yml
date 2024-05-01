@@ -1,0 +1,2 @@
+command: "youtube-dl -o %(autonumber)s-%(epoch)s.mp4"
+directory: "/data"
