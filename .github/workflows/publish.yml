@@ -30,7 +30,7 @@ jobs:
           go-version: '1.20'
 
       - name: Build
-        run: go build *.go -o downloader
+        run: go build -o downloader .
       - name: Log in to the Container registry
         uses: docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1
         with:
