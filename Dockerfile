@@ -8,4 +8,5 @@ COPY ./downloader /usr/bin/downloader
 RUN mkdir -p /etc/downloader
 
 # Your additional configuration
-CMD ["/usr/bin/downloader"]
+ENTRYPOINT ["/usr/bin/downloader"]
+
